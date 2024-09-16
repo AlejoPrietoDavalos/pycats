@@ -11,11 +11,16 @@ class Weight(BaseModel):
     weight: float
     date: date
 
+class AntiParasitic(BaseModel):
+    name: str
+    date: date
+
 class Cat(BaseModel):
     name: str
     color_hex: str = Field(description="Color de los plots asociados.")
     unit: Literal["kg"] = KG
     weights: List[Weight] = Field(default_factory=list)
+    anti_parasitic: List[AntiParasitic] = Field(default_factory=list)
 
     def get_df_weights(self) -> pd.DataFrame:
         return pd.DataFrame([w.model_dump() for w in self.weights])

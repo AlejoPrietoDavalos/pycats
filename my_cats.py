@@ -1,12 +1,14 @@
 from typing import List
 from datetime import date
 
-from pycats.cat import Cats, Cat, Weight
+from pycats.cat import Cats, Cat, Weight, AntiParasitic
 
 KG = "kg"
 EPSILON = "Épsilon"
 CURIE = "Curie"
 GAUSS = "Gauss"
+
+ANTI_PARASITIC_APRAX = "APRAX Raza mediana 3/4 de pastilla"
 
 def get_epsilon() -> Cat:
     return Cat(
@@ -15,6 +17,9 @@ def get_epsilon() -> Cat:
         color_hex="#08acd1",
         weights=[
             Weight(weight=6.20, date=date(2024,9,11))
+        ],
+        anti_parasitic=[
+            AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
         ]
     )
 
@@ -25,6 +30,9 @@ def get_curie() -> Cat:
         color_hex="#e87827",
         weights=[
             Weight(weight=6.25, date=date(2024,9,11))
+        ],
+        anti_parasitic=[
+            AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
         ]
     )
 
@@ -35,6 +43,9 @@ def get_gauss() -> Cat:
         color_hex="#03826d",
         weights=[
             Weight(weight=6.20, date=date(2024,9,11))
+        ],
+        anti_parasitic=[
+            AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
         ]
     )
 
