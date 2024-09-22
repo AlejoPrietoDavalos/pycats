@@ -1,4 +1,4 @@
-##### last_updated: 2024-09-20 16:26:23
+##### last_updated: 2024-09-22 01:56:17
 
 ### Control de peso.
 ![plots/cat_weights.png](plots/cat_weights.png)

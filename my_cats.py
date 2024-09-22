@@ -16,9 +16,10 @@ def get_epsilon() -> Cat:
         unit=KG,
         color_hex="#08acd1",
         weights=[
-            Weight(weight=6.20, date=date(2024,9,11)),
-            Weight(weight=6.10, date=date(2024,9,16)),
-            Weight(weight=6.00, date=date(2024,9,20)),
+            Weight(weight=6.2, date=date(2024,9,11)),
+            Weight(weight=6.1, date=date(2024,9,16)),
+            Weight(weight=6.0, date=date(2024,9,20)),
+            Weight(weight=5.9, date=date(2024,9,21)),
         ],
         anti_parasitic=[
             AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
@@ -32,8 +33,9 @@ def get_curie() -> Cat:
         color_hex="#e87827",
         weights=[
             Weight(weight=6.25, date=date(2024,9,11)),
-            Weight(weight=6.10, date=date(2024,9,16)),
-            Weight(weight=6.00, date=date(2024,9,20)),
+            Weight(weight=6.1, date=date(2024,9,16)),
+            Weight(weight=6.0, date=date(2024,9,20)),
+            Weight(weight=5.9, date=date(2024,9,21)),
         ],
         anti_parasitic=[
             AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
@@ -46,9 +48,10 @@ def get_gauss() -> Cat:
         unit=KG,
         color_hex="#03826d",
         weights=[
-            Weight(weight=6.20, date=date(2024,9,11)),
-            Weight(weight=6.10, date=date(2024,9,16)),
-            Weight(weight=6.00, date=date(2024,9,20)),
+            Weight(weight=6.2, date=date(2024,9,11)),
+            Weight(weight=6.1, date=date(2024,9,16)),
+            Weight(weight=6.0, date=date(2024,9,20)),
+            Weight(weight=5.9, date=date(2024,9,21)),
         ],
         anti_parasitic=[
             AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
