@@ -20,6 +20,8 @@ def get_epsilon() -> Cat:
             Weight(weight=6.1, date=date(2024,9,16)),
             Weight(weight=6.0, date=date(2024,9,20)),
             Weight(weight=5.9, date=date(2024,9,21)),
+            Weight(weight=5.8, date=date(2024,9,27)),
+            Weight(weight=5.4, date=date(2024,10,11)),
         ],
         anti_parasitic=[
             AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
@@ -36,6 +38,8 @@ def get_curie() -> Cat:
             Weight(weight=6.1, date=date(2024,9,16)),
             Weight(weight=6.0, date=date(2024,9,20)),
             Weight(weight=5.9, date=date(2024,9,21)),
+            Weight(weight=5.8, date=date(2024,9,27)),
+            Weight(weight=5.8, date=date(2024,10,11)),
         ],
         anti_parasitic=[
             AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
@@ -52,6 +56,8 @@ def get_gauss() -> Cat:
             Weight(weight=6.1, date=date(2024,9,16)),
             Weight(weight=6.0, date=date(2024,9,20)),
             Weight(weight=5.9, date=date(2024,9,21)),
+            Weight(weight=5.8, date=date(2024,9,27)),
+            Weight(weight=5.4, date=date(2024,10,11)),
         ],
         anti_parasitic=[
             AntiParasitic(name=ANTI_PARASITIC_APRAX, date=date(2024,9,15))
